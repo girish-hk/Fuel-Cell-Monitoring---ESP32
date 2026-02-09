@@ -1,0 +1,106 @@
+(footprint "AKL073-3.pretty"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.0508 -12.7014 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "a7cb4bf3-4338-4378-b91a-f922261601c3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "AKL073-3.pretty"
+		(at 0.0508 -11.2014 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c83489f3-1f8d-4813-9a60-b8f8353df964")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0.0508 -12.2014 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "068bb652-eccd-4d0e-a3af-863b4e9bdc31")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0.0508 -12.2014 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0c5b3d9e-543d-4eec-a10e-7f8d30a77a56")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -12.6746 -5.6642)
+		(end 12.7 5.6642)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "ca8c6b3a-f5e1-40ce-a6e8-2dab4d30c626")
+	)
+	(fp_rect
+		(start -12.8016 -5.842)
+		(end 12.8778 5.8166)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "18790cfe-fbcb-4d38-9dd6-d8aaaa1276f3")
+	)
+	(pad "1" thru_hole oval
+		(at -10 0)
+		(size 2.54 2.54)
+		(drill 1.039)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "5e15e8a2-036e-42bc-a09b-c52bedc99667")
+	)
+	(pad "2" thru_hole oval
+		(at 0 0)
+		(size 2.54 2.54)
+		(drill 1.039)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "53660e0f-d4ee-45b6-8025-14732e87752f")
+	)
+	(pad "3" thru_hole oval
+		(at 10 0)
+		(size 2.54 2.54)
+		(drill 1.039)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "dac66fd3-29e1-4113-8911-8c7bfdf08938")
+	)
+	(embedded_fonts no)
+)

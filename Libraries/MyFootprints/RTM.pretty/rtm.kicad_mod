@@ -1,0 +1,113 @@
+(footprint "rtm"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -24.003 -5.5146 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "33489582-0f33-4281-a5c4-643020876fc3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "rtm"
+		(at -24.003 -4.0146 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cff97433-c36b-4f1a-add8-cf197b10b2f1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at -24.003 -5.0146 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8e9fe2c0-a97d-4355-843a-effa646519c5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at -24.003 -5.0146 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "02f59158-d60e-455e-b876-e277865b3e28")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -1.27 -1.1176)
+		(end 1.0414 1.1938)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "1d2702f7-c699-4901-8cdb-dd53327c1184")
+	)
+	(fp_rect
+		(start -1.4224 -1.2192)
+		(end 1.1938 1.3208)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "fe6e72fc-7091-47c4-804d-72e5f4918ef5")
+	)
+	(fp_rect
+		(start -1.1176 -0.9398)
+		(end 0.889 1.0414)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "a4b40335-15c0-48d5-a92e-8f45d8ca8734")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -24.003 -2.5146 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "b6389576-96ba-40f9-8220-1afbe1c2952b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -0.127 0.0508)
+		(size 1.8 1.8)
+		(drill 1.05)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f2f9f122-8a5d-4abc-bb64-306b73dc14e7")
+	)
+	(embedded_fonts no)
+)
