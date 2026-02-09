@@ -1,8 +1,7 @@
 # Fuel Cell Monitoring PCB – ESP32-S3
 
-**Master’s Project | Hochschule Wismar (HS Wismar)**
 
-This repository contains the hardware design of a **Fuel Cell Monitoring and Measurement Board** developed as part of my Master’s project.  
+This repository contains the hardware design of a **Fuel Cell Monitoring and Measurement Board** developed in KiCad.  
 The board is designed to monitor key electrical parameters of a PEM fuel cell system and interface with an **ESP32-S3** microcontroller.
 
 
